@@ -429,16 +429,4 @@ Interactive Dashboard
 
 ---
 
-# Author
 
-**Bhavesh Gorana**
-
-B.Tech Computer Science (Data Science)
-
-JIET, Jodhpur
-
----
-
-# License
-
-This project is developed for educational and research purposes.
