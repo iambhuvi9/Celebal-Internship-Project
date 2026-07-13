@@ -76,6 +76,7 @@ An interactive load tracker that receives synchronized feature inputs to project
 
 <img src="assets/Demand Matrix.png" width="100%">
 ---
+
 ## 4. Machine Learning Sensitivity & Attribution Matrix (Attribution Weights)
 
 A diagnostic plot displaying the exact global feature attribution scores across the core ensemble algorithm. It ranks factors by their sensitivity coefficients to give clear mathematical transparency to users:
