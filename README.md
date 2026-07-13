@@ -44,36 +44,35 @@ This platform:
 ---
 
 # Project Preview
-
 ## 1. Enterprise SaaS Dashboard Core Layout
 
-The unified analytics frame maps predictive capabilities against real-time operational constraints across a multi-column layout structure:
+The unified analytics frame maps predictive capabilities against real-time operational constraints across an optimized multi-column enterprise SaaS configuration:
 
-- **Primary Left Navigation Sidebar**: Controls global simulation parameters across telemetry arrays and temporal model variables.
-- **Center Analytics Dashboard**: Tracks immediate dynamic scalar load indicators alongside a continuous 7-Day consumption spline grid.
-- **Right Automation Engine Log**: Outputs prioritized tactical optimization override badges and responsive localized system health index states.
-- **Lower Analytics Control Panel**: Benchmarks feature contribution variance metrics asynchronously derived from the underlying ensemble nodes.
+- **Primary Left Navigation Sidebar**: Hosts interactive control modules, split into the `🌡️ Telemetry Simulation Matrix` and `📅 Temporal Modifiers` control clusters.
+- **Main Mainframe Column (Center-Left Grid)**: Processes the primary `🔮 AI Core Forecasted Load Profile` indicator block directly above the continuous `📈 Predictive 7-Day Demand Matrix` trend tracker.
+- **Operational Intelligence Column (Right Grid)**: Aggregates real-time diagnostic telemetry outputs under the `🧠 Autonomous Optimization Engine` log array alongside the `📊 Quantified Grid Optimization Level` health index bar.
+- **Lower Analytics Control Block (Full-Width Base Floor)**: Spans horizontally across the complete dashboard workspace layout, embedding the comprehensive `📊 Feature Attribution Matrices (Sensitivity Index)` to isolate variable coefficients instantly.
 
 <img src="assets/Dashboard Platform.png" width="100%">
 ---
-
 ## 2. Input Simulation Panel (Dynamic Parameter Boundary Configuration)
 
-The control center sidebar exposes two granular input vector sub-modules to dynamically stress-test the model's predictive limits:
+The control center sidebar exposes two granular input vector sub-modules to dynamically simulate and stress-test the machine learning model's predictive limits:
 
-- **🌡️ Telemetry Simulation Matrix**: Configures immediate raw physics parameters using precision sliders including Minimum/Maximum Temperature thresholds (°C), Relative Humidity levels, and Wind Velocity metrics (mph).
-- **📅 Temporal Modifiers Engine**: Integrates a master toggle button to dynamically switch between standalone weather parsing or complete date-driven logic. Exposes an active calendar selector, diurnal phase tracking (`Day Shift` vs. `Night Shift`), and hourly granular sliders (`00:00` to `23:00`).
+- **🌡️ Telemetry Simulation Matrix**: Real-time physical parameter sliders to configure ambient conditions, including Minimum Temperature (°C), Maximum Temperature (°C), Relative Humidity, and Wind Velocity (mph).
+- **📅 Temporal Modifiers Engine**: Houses a master activation toggle (`Enable Temporal Analytics Engine`) that opens interactive target constraints: a calendar date picker (`Select Target Date`), a diurnal shift matrix selector (`Day Shift` / `Night Shift`), and a Target Operating Hour granular scheduler.
 
 <img src="assets/Telemetry Input.png" width="100%">
+
 ---
 
 ## 3. Predictive 7-Day Demand Matrix (Volumetric Load Tracking)
 
-An interactive temporal load tracker that receives synchronized feature inputs to project cyclic grid consumption trajectories over a forward-looking weekly horizon:
+An interactive load tracker that receives synchronized feature inputs to project cyclic grid consumption trajectories over a forward-looking weekly horizon:
 
-- **Dynamic X-Axis Projection**: Adapts automatically to map labels starting from the selected calendar date sequence (e.g., `Day 1 (Mon)` through `Day 7 (Sun)`).
-- **Y-Axis Scalability**: Tracks absolute metrics directly in Kilowatt-hours (`kWh`) to catch localized peak load spikes.
-- **Plotly Integration Upgrade**: (Optional) In the codebase, this step updates the standard native layout into an absolute `plotly.graph_objects.Scatter` model with a `shape='spline'` parameter to render smooth area trends over raw stepped structures.
+- **Dynamic X-Axis Projection**: Adapts automatically to map localized sequential sequences starting from the targeted base tracking profile (`Day 1 (Mon)` through `Day 7 (Sun)`).
+- **Y-Axis Scalability**: Tracks absolute metrics directly in Kilowatt-hours (`kWh`) across continuous grid intervals to isolate cyclic load variances at a glance.
+- **AI Core Synchronization**: Linked dynamically to the primary forecast card, reflecting minor adjustments instantly as you change values on the telemetry sliders.
 
 <img src="assets/Demand Matrix.png" width="100%">
 ---
@@ -81,7 +80,8 @@ An interactive temporal load tracker that receives synchronized feature inputs t
 
 A diagnostic plot displaying the exact global feature attribution scores across the core ensemble algorithm. It ranks factors by their sensitivity coefficients to give clear mathematical transparency to users:
 
-- **Attribution Distribution**: Shows how environmental vectors (`MaxTemp`, `MinTemp`, `Humidity`, `Wind Speed`) compare directly against calendar elements (`Month`, `Day of Week`, `Is Weekend`).
+- **Attribution Distribution**: Shows how environmental vectors (`Max Temp`, `Min Temp`, `Humidity`, `Wind Speed`) compare directly against structural calendar elements (`Month`, `Day of Week`, `Is Weekend`).
+- **Dynamic Structural Floor**: Spans horizontally across the complete interface floor, demonstrating that the `Max Temp` threshold stands as the primary mathematical contributor driving the core regression logic.
 - **Visual Mapping**: Features high-contrast pink column vectors aligned perfectly within dark canvas grids to make tracking sensitivities simple for operators at a glance.
 
 <img src="assets/Feature Importance.png" width="100%">
