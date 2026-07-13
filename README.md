@@ -1,4 +1,4 @@
-<img width="1424" height="325" alt="image" src="https://github.com/user-attachments/assets/fae46209-b9cf-4c66-99fc-cd405a72ca0b" /># ⚡ Autonomous Energy Optimization Platform for Smart Grids
+⚡ Autonomous Energy Optimization Platform for Smart Grids
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)](https://scikit-learn.org/)
