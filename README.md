@@ -45,28 +45,46 @@ This platform:
 
 # Project Preview
 
-## 1. Dashboard
+## 1. Enterprise SaaS Dashboard Core Layout
+
+The unified analytics frame maps predictive capabilities against real-time operational constraints across a multi-column layout structure:
+
+- **Primary Left Navigation Sidebar**: Controls global simulation parameters across telemetry arrays and temporal model variables.
+- **Center Analytics Dashboard**: Tracks immediate dynamic scalar load indicators alongside a continuous 7-Day consumption spline grid.
+- **Right Automation Engine Log**: Outputs prioritized tactical optimization override badges and responsive localized system health index states.
+- **Lower Analytics Control Panel**: Benchmarks feature contribution variance metrics asynchronously derived from the underlying ensemble nodes.
 
 <img src="assets/Dashboard Platform.png" width="100%">
-
 ---
 
-## 2. Input Simulation Panel
+## 2. Input Simulation Panel (Dynamic Parameter Boundary Configuration)
+
+The control center sidebar exposes two granular input vector sub-modules to dynamically stress-test the model's predictive limits:
+
+- **🌡️ Telemetry Simulation Matrix**: Configures immediate raw physics parameters using precision sliders including Minimum/Maximum Temperature thresholds (°C), Relative Humidity levels, and Wind Velocity metrics (mph).
+- **📅 Temporal Modifiers Engine**: Integrates a master toggle button to dynamically switch between standalone weather parsing or complete date-driven logic. Exposes an active calendar selector, diurnal phase tracking (`Day Shift` vs. `Night Shift`), and hourly granular sliders (`00:00` to `23:00`).
 
 <img src="assets/Telemetry Input.png" width="100%">
-
 ---
 
-## 3. Energy Forecast
+## 3. Predictive 7-Day Demand Matrix (Volumetric Load Tracking)
+
+An interactive temporal load tracker that receives synchronized feature inputs to project cyclic grid consumption trajectories over a forward-looking weekly horizon:
+
+- **Dynamic X-Axis Projection**: Adapts automatically to map labels starting from the selected calendar date sequence (e.g., `Day 1 (Mon)` through `Day 7 (Sun)`).
+- **Y-Axis Scalability**: Tracks absolute metrics directly in Kilowatt-hours (`kWh`) to catch localized peak load spikes.
+- **Plotly Integration Upgrade**: (Optional) In the codebase, this step updates the standard native layout into an absolute `plotly.graph_objects.Scatter` model with a `shape='spline'` parameter to render smooth area trends over raw stepped structures.
 
 <img src="assets/Demand Matrix.png" width="100%">
-
 ---
+## 4. Machine Learning Sensitivity & Attribution Matrix (Attribution Weights)
 
-## 4. Feature Importance
+A diagnostic plot displaying the exact global feature attribution scores across the core ensemble algorithm. It ranks factors by their sensitivity coefficients to give clear mathematical transparency to users:
+
+- **Attribution Distribution**: Shows how environmental vectors (`MaxTemp`, `MinTemp`, `Humidity`, `Wind Speed`) compare directly against calendar elements (`Month`, `Day of Week`, `Is Weekend`).
+- **Visual Mapping**: Features high-contrast pink column vectors aligned perfectly within dark canvas grids to make tracking sensitivities simple for operators at a glance.
 
 <img src="assets/Feature Importance.png" width="100%">
-
 ---
 
 # Directory Structure
