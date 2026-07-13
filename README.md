@@ -1,4 +1,4 @@
-# ⚡ Autonomous Energy Optimization Platform for Smart Grids
+<img width="1424" height="325" alt="image" src="https://github.com/user-attachments/assets/fae46209-b9cf-4c66-99fc-cd405a72ca0b" /># ⚡ Autonomous Energy Optimization Platform for Smart Grids
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)](https://scikit-learn.org/)
@@ -81,7 +81,7 @@ An interactive load tracker that receives synchronized feature inputs to project
 
 ---
 
-## 4. Autonomous Optimization Engine & Grid Health Metrics
+## 4.1 Autonomous Optimization Engine & Grid Health Metrics
 
 A highly reactive diagnostic interface panel that maps multi-variable environmental telemetry inputs directly to automated grid efficiency rules and operational action logs. The engine evaluates physics limits and calendar constraints dynamically to dispatch real-time system badges:
 
@@ -109,7 +109,7 @@ The optimization engine continuously parses system states to trigger specific tr
 
 ---
 
-### 5 Quantified Grid Optimization Level
+### 4.2 Quantified Grid Optimization Level
 
 The system constantly runs cross-validation equations against input variables to generate a dynamic grid optimization target index:
 
@@ -120,7 +120,7 @@ The system constantly runs cross-validation equations against input variables to
 <img src="assets/Optimization Logs.png" width="100%">
 ---
 
-## 6. Machine Learning Sensitivity & Attribution Matrix (Attribution Weights)
+## 5. Machine Learning Sensitivity & Attribution Matrix (Attribution Weights)
 
 A diagnostic plot displaying the exact global feature attribution scores across the core ensemble algorithm. It ranks factors by their sensitivity coefficients to give clear mathematical transparency to users:
 
@@ -129,6 +129,8 @@ A diagnostic plot displaying the exact global feature attribution scores across 
 - **Visual Mapping**: Features high-contrast pink column vectors aligned perfectly within dark canvas grids to make tracking sensitivities simple for operators at a glance.
 
 <img src="assets/Feature Importance.png" width="100%">
+
+---
 # Directory Structure
 
 ```text
