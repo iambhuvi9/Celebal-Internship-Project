@@ -378,11 +378,6 @@ models/energy_forecast_model.pkl
 streamlit run app/gui_app.py
 ```
 
-Open
-
-```
-http://localhost:8501
-```
 
 ---
 
