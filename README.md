@@ -1,11 +1,6 @@
 ⚡ Autonomous Energy Optimization Platform for Smart Grids
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)](https://scikit-learn.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)](https://streamlit.io/)
-[![Plotly](https://img.shields.io/badge/Plotly-Visualization-blueviolet)](https://plotly.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
-
+---
 An intelligent machine learning platform for **energy consumption forecasting** using smart meter telemetry and historical weather data.
 
 The project combines **Random Forest Regression**, weather analytics, temporal feature engineering, and an interactive **Streamlit dashboard** to forecast electricity demand, visualize future consumption trends, and generate rule-based energy optimization recommendations.
