@@ -1,188 +1,382 @@
-# Autonomous Energy Optimization Platform for Smart Grids
+# ⚡ Autonomous Energy Optimization Platform for Smart Grids
 
-A production-grade, modular energy analytics and predictive forecasting system built using Python, Scikit-Learn, Streamlit, and Plotly. The platform ingests large-scale smart meter telemetry data alongside historical hourly weather streams to forecast consumption, isolate dynamic usage patterns, and dispatch automated demand-side optimization directives in real-time.
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)](https://scikit-learn.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)](https://streamlit.io/)
+[![Plotly](https://img.shields.io/badge/Plotly-Visualization-blueviolet)](https://plotly.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 
-The core architecture leverages advanced ensemble machine learning (Random Forest Regression) to map non-linear thermal sensitivities and temporal variations across the grid. By synthesizing meteorological factors with temporal modifiers, the platform generates high-fidelity demand profiles and actionable optimization indexes without requiring complex local hardware integration.
+An intelligent machine learning platform for **energy consumption forecasting** using smart meter telemetry and historical weather data.
 
----
-
-## Features
-
-- **High-Scale Ingestion Pipeline**: Built to efficiently process large-scale smart meter arrays (optimized via chunk-based low-memory configurations) alongside dense, multi-variable historical weather streams.
-- **Granular Temporal Feature Suite**: Extracts deep cyclical attributes from raw date stamps (including Month indices, Day-of-Week sequences, and binary Weekend indicators) to isolate commercial shutdowns and residential load shifts.
-- **Ensemble Predictive Core**: Utilizes a highly trained Random Forest Regressor framework to map multi-spectral weather variations and structural calendar markers against localized volumetric demand profiles (`energy_sum`).
-- **Real-Time Automated Dispatch Engine**: An algorithmic rule-base that parses ambient temperatures, kinetic wind draft patterns, and moisture indices to spin up instantaneous grid efficiency badges and localized HVAC optimization overrides.
-- **Enterprise SaaS Dashboard**: Deploys an interactive, premium Single Page Application UI via Streamlit featuring unified digital control selectors, master toggle overrides, and dynamic Plotly spline area graphs.
+The project combines **Random Forest Regression**, weather analytics, temporal feature engineering, and an interactive **Streamlit dashboard** to forecast electricity demand, visualize future consumption trends, and generate rule-based energy optimization recommendations.
 
 ---
 
-## 🖼️ Project Previews & Visual Analytics
+# Project Overview
 
-### 1. Enterprise Control Center & Core Forecasting Interface
-The central data orchestration center managed via Streamlit, tracking real-time telemetry matrices, master temporal toggles, and multi-metric executive KPI rows.
+Electricity demand is influenced by several environmental and temporal factors such as temperature, humidity, wind speed, weekdays, weekends, and seasonal changes.
 
-<img src="assets/Dashboard Platform.png" alt="Enterprise Energy Dashboard Interface" width="100%" />
+This platform:
 
----
-
-### 2. Multi-Variable Telemetry Simulation Matrix
-Sample interactive configuration showing the input simulation panel where min/max thermal limits, relative humidity vectors, and calendar schedules are manipulated to stress-test grid behaviors.
-
-<img src="assets/Telemetry Input.png" alt="Telemetry Simulation Matrix Interface" width="100%" />
-
----
-
-### 3. Predictive 7-Day Demand Matrix (Plotly Spline Area)
-High-end analytical visualization displaying the forecasted weekly energy load curve, generating precise cyclic sequence projections based on user-defined environmental factors.
-
-<img src="assets/Demand Matrix.png" alt="Predictive 7-Day Demand Curve" width="100%" />
+- Loads smart meter energy consumption data
+- Integrates historical weather information
+- Performs feature engineering
+- Trains a Random Forest Regression model
+- Predicts future electricity demand
+- Displays results using an interactive Streamlit dashboard
+- Generates optimization recommendations based on predicted demand
 
 ---
 
-### 4. Machine Learning Sensitivity & Attribution Matrix
-Comparative horizontal feature importance distribution showing the exact mathematical weight computed by the Random Forest core nodes across individual telemetry vector inputs.
+# Features
 
-<img src="assets/Feature Importance.png" alt="Feature Attribution Matrices" width="100%" />
+- Smart Meter Data Processing Pipeline
+- Weather Data Integration
+- Temporal Feature Engineering
+- Random Forest Regression Model
+- 7-Day Energy Demand Forecast
+- Feature Importance Visualization
+- Interactive Streamlit Dashboard
+- Plotly Interactive Charts
+- Rule-Based Energy Optimization Suggestions
+- Serialized Machine Learning Model using Joblib
 
 ---
 
-## Directory Structure
+# Project Preview
+
+## 1. Dashboard
+
+<img src="assets/Dashboard Platform.png" width="100%">
+
+---
+
+## 2. Input Simulation Panel
+
+<img src="assets/Telemetry Input.png" width="100%">
+
+---
+
+## 3. Energy Forecast
+
+<img src="assets/Demand Matrix.png" width="100%">
+
+---
+
+## 4. Feature Importance
+
+<img src="assets/Feature Importance.png" width="100%">
+
+---
+
+# Directory Structure
 
 ```text
 smart_energy_optimization/
 │
-├── data/                             # Dataset storage repository
-│   ├── daily_dataset.csv             # Raw London smart meter volumetric data (~99MB)
-│   └── weather_hourly_darksky.csv    # Historical hourly weather telemetry records
+├── app/
+│   └── gui_app.py
+│
+├── assets/
+│   ├── Dashboard Platform.png
+│   ├── Telemetry Input.png
+│   ├── Demand Matrix.png
+│   └── Feature Importance.png
+│
+├── data/
+│   ├── daily_dataset.csv
+│   └── weather_hourly_darksky.csv
 │
 ├── models/
-│   └── energy_forecast_model.pkl     # Serialized Random Forest core regression artifact
+│   └── energy_forecast_model.pkl
 │
 ├── notebooks/
-│   └── Main.ipynb                    # Exploratory Data Analysis & training workbook
+│   └── Main.ipynb
 │
 ├── src/
-│   ├── __init__.py                   # Python package structural declaration
-│   ├── data_pipeline.py              # Data loading, cleaning, and inner join synchronization
-│   ├── feature_eng.py                # Temporal feature engineering suite
-│   └── model_pipeline.py             # Model initialization, ensemble training, and serialization
+│   ├── __init__.py
+│   ├── data_pipeline.py
+│   ├── feature_eng.py
+│   └── model_pipeline.py
 │
-├── app/
-│   └── gui_app.py                    # Streamlit interactive user UI dashboard script
+├── requirements.txt
 │
-└── requirements.txt                  # Project runtime environment dependencies manifest
+└── README.md
+```
+
 ---
 
-###  Tech Stack & System Workflow Matrix
-Is part me dependencies lookup definitions aur analytical sequential components workflow block mapping hai:
-
-```markdown
----
-
-## Tech Stack
+# Technology Stack
 
 | Technology | Purpose |
-|:---|:---|
-| **Scikit-Learn** | Core machine learning framework utilized for ensemble training and model validation loops. |
-| **Streamlit** | Fast Python UI library utilized to build the reactive, high-tech single-page analytics application. |
-| **Plotly Express/GO** | Deploys responsive, highly interactive, premium spline charts and horizontal bar graphs. |
-| **Pandas & NumPy** | Handles heavy mathematical transformations, low-memory array configurations, and data vector merges. |
-| **Joblib** | Specialized serialization utility for freezing and exporting the trained ML artifact weights. |
+|------------|---------|
+| Python | Programming Language |
+| Pandas | Data Cleaning & Processing |
+| NumPy | Numerical Computing |
+| Scikit-Learn | Machine Learning |
+| Random Forest Regressor | Energy Forecasting |
+| Plotly | Interactive Charts |
+| Streamlit | Dashboard Development |
+| Joblib | Model Serialization |
 
 ---
 
-## Analytics & Predictive Architecture
-
-The automated demand-side management and consumption forecasting workflow operates through a structured vector extraction pipeline:
+# Machine Learning Pipeline
 
 ```text
-[Smart Meter Array Data]                [Weather Telemetry Streams]
-           │                                         │
-           ▼                                         ▼
-┌────────────────────────────────────────────────────────────┐
-│                  Data Processing Engine                    │
-│      (Low-Memory Filtering + Datetime Type Enforcement)    │
-└──────────────────────────────┬─────────────────────────────┘
-                               │
-                               ▼
-┌────────────────────────────────────────────────────────────┐
-│                Inner Join Constraint Node                  │
-│             (Synchronized via shared 'day' vector)          │
-└──────────────────────────────┬─────────────────────────────┘
-                               │
-                               ▼
-┌────────────────────────────────────────────────────────────┐
-│                 Feature Engineering Suite                  │
-│        (Extracts Month, Day of Week, and Weekend Flags)     │
-└──────────────────────────────┬─────────────────────────────┘
-                               │
-                               ▼
-┌────────────────────────────────────────────────────────────┐
-│             Random Forest Regressor Core Node              │
-│         (Maps Multi-Variable Meteorological Vectors)       │
-└──────────────────────────────┬─────────────────────────────┘
-                               │
-                               ▼
- ┌─────────────────────────────┴─────────────────────────────┐
- │               Autonomous Optimization Engine              │
- └─────────────────────────────┬─────────────────────────────┘
-                               │
-          ┌────────────────────┴────────────────────┐
-          ▼                                         ▼
-[⚠️ THERMAL / MOISTURE ALERTS]             [🟢 GRID BALANCED STATE]
-(Dispatches HVAC Throttle Directives)      (Stabilizes System Baseline)
+          Smart Meter Dataset
+                    │
+                    ▼
+         Weather Dataset
+                    │
+                    ▼
+          Data Cleaning & Merge
+                    │
+                    ▼
+        Feature Engineering
+   (Month • Weekday • Weekend)
+                    │
+                    ▼
+      Random Forest Regression
+                    │
+                    ▼
+      Energy Consumption Prediction
+                    │
+                    ▼
+       Optimization Recommendations
+                    │
+                    ▼
+         Streamlit Dashboard
+```
 
 ---
 
-###  Installation Guide & Verification Logs
-Is part me terminal configurations shell commands, running strategies aur dynamic kaggle metadata pointers hain:
+# Dataset
 
-```markdown
+## Smart Meter Dataset
+
+Contains daily electricity consumption collected from London Smart Meters.
+
+Main target variable:
+
+- **energy_sum**
+
 ---
 
-## Quick Start & Installation (Step-by-Step)
+## Weather Dataset
 
-Follow these directions to initialize, compile, and spin up the architecture within your local environment setup:
+Historical weather variables including:
 
-### 1. Open Terminal and Navigate to Project Folder
-Open your PowerShell or Command Prompt window and move into the absolute system repository pathway:
-```powershell
-cd D:\Smart_Energy_Optimization
+- Temperature Max
+- Temperature Min
+- Humidity
+- Wind Speed
 
-### 2. Initialize the Isolated Virtual Environment
-Create a sandboxed Python execution frame to clean block native system dependencies conflicts:
+These variables are merged with the energy dataset for prediction.
 
-```powershell
+---
+
+# Feature Engineering
+
+The following features are extracted:
+
+- Month
+- Day of Week
+- Weekend Flag
+- Maximum Temperature
+- Minimum Temperature
+- Humidity
+- Wind Speed
+
+---
+
+# Model
+
+The forecasting engine uses:
+
+**Random Forest Regressor**
+
+### Input Features
+
+- temperatureMax
+- temperatureMin
+- humidity
+- windSpeed
+- month
+- day_of_week
+- weekend
+
+### Target
+
+```
+energy_sum
+```
+
+---
+
+# Dashboard Features
+
+The Streamlit application provides:
+
+- Temperature Controls
+- Humidity Slider
+- Wind Speed Input
+- Calendar Selection
+- 7-Day Energy Forecast
+- Feature Importance Chart
+- Energy Optimization Alerts
+- Interactive Plotly Visualizations
+
+---
+
+# Optimization Rules
+
+The platform generates simple rule-based recommendations such as:
+
+- High Cooling Demand Expected
+- Reduce HVAC Load During Peak Hours
+- High Wind Efficiency
+- Weekend Low Demand
+- Balanced Grid Condition
+
+---
+
+# Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/yourusername/smart-energy-optimization.git
+
+cd smart-energy-optimization
+```
+
+---
+
+## Create Virtual Environment
+
+### Windows
+
+```bash
 python -m venv venv
+```
 
-### 3. Activate the Environment Sandbox
-Engage the environment structure depending on your host terminal shell mapping:
-# On Windows PowerShell:
-venv\Scripts\Activate.ps1
+Activate
 
-# On Windows Command Prompt:
-venv\Scripts\activate.bat
+```bash
+venv\Scripts\activate
+```
 
-### 4. Install Component Dependencies
-Pull down and link all required numerical processing, learning frameworks, and charting packages:
-python -m pip install -r requirements.txt
+---
 
-### 5. Execute Core Machine Learning Pipeline
-Open the notebooks/Main.ipynb file or run the underlying scripts in sequence. This ingests the raw source datasets, runs the data engineering modules, trains the Random Forest model, and dumps the artifact (energy_forecast_model.pkl) straight into the models/ directory.
+### Linux / macOS
 
-### 6. Launch the Local SaaS Dashboard
-Execute the production server script block to boot the web interface engine instantly:
+```bash
+python3 -m venv venv
+
+source venv/bin/activate
+```
+
+---
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# Train the Model
+
+Open the notebook
+
+```
+notebooks/Main.ipynb
+```
+
+Run all cells.
+
+This will:
+
+- Load datasets
+- Process data
+- Train the Random Forest model
+- Save
+
+```
+models/energy_forecast_model.pkl
+```
+
+---
+
+# Run the Dashboard
+
+```bash
 streamlit run app/gui_app.py
-The application dashboard will automatically bind to your network stack and spin up in your default web browser tracking interface at http://localhost:8501.
+```
 
-### Running the Application
-Telemetry Simulation Setup: Adjust the temperature sliders, humidity levels, and wind speeds on the sidebar panel to emulate varying structural grid pressures.
+Open
 
-Temporal Controls Evaluation: Toggle the Master Temporal Switch. When active, select specific dates, day shifts (Day/Night), and peak-pricing hours. Turning it OFF bypasses calendar arrays to focus purely on climate values.
+```
+http://localhost:8501
+```
 
-Automated Log Extraction: Review the right column (Autonomous Optimization Engine) to analyze real-time dynamic badges (e.g., Thermal Drop Active, Latent Load Crisis, or Temporal Logic Offline) dispatched by the optimization logic.
+---
 
-### References & Data Citations
-Target Energy Dataset: Ingests the public Smart Meters in London Dataset hosted on Kaggle, analyzing continuous volumetric smart meter tracking entries spanning 5,500 London households.
+# Example Workflow
 
-Historical Weather Streams: Linked directly against DarkSky hourly weather profiles containing localized multi-spectral variables (including relative humidity indexes, wind velocities, and minimum/maximum daily temperatures).
+```
+Weather Data
+        │
+        ▼
+Feature Engineering
+        │
+        ▼
+Random Forest Prediction
+        │
+        ▼
+7-Day Energy Forecast
+        │
+        ▼
+Optimization Suggestions
+        │
+        ▼
+Interactive Dashboard
+```
+
+---
+
+# Future Improvements
+
+- XGBoost Model
+- LightGBM Integration
+- LSTM Time-Series Forecasting
+- Real-Time Smart Meter API
+- Cloud Deployment
+- Docker Support
+- CI/CD Pipeline
+- Grid-Level Demand Analytics
+
+---
+
+# Dataset Source
+
+- London Smart Meter Dataset
+- DarkSky Historical Weather Dataset
+
+---
+
+# Author
+
+**Bhavesh Gorana**
+
+B.Tech Computer Science (Data Science)
+
+JIET, Jodhpur
+
+---
+
+# License
+
+This project is developed for educational and research purposes.
