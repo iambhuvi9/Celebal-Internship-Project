@@ -1,4 +1,4 @@
-⚡ Autonomous Energy Optimization Platform for Smart Grids
+# Autonomous Energy Optimization Platform for Smart Grids
 
 ---
 An intelligent machine learning platform for **energy consumption forecasting** using smart meter telemetry and historical weather data.
