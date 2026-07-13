@@ -44,6 +44,7 @@ This platform:
 ---
 
 # Project Preview
+
 ## 1. Enterprise SaaS Dashboard Core Layout
 
 The unified analytics frame maps predictive capabilities against real-time operational constraints across an optimized multi-column enterprise SaaS configuration:
@@ -54,7 +55,9 @@ The unified analytics frame maps predictive capabilities against real-time opera
 - **Lower Analytics Control Block (Full-Width Base Floor)**: Spans horizontally across the complete dashboard workspace layout, embedding the comprehensive `📊 Feature Attribution Matrices (Sensitivity Index)` to isolate variable coefficients instantly.
 
 <img src="assets/Dashboard Platform.png" width="100%">
+
 ---
+
 ## 2. Input Simulation Panel (Dynamic Parameter Boundary Configuration)
 
 The control center sidebar exposes two granular input vector sub-modules to dynamically simulate and stress-test the machine learning model's predictive limits:
@@ -75,6 +78,7 @@ An interactive load tracker that receives synchronized feature inputs to project
 - **AI Core Synchronization**: Linked dynamically to the primary forecast card, reflecting minor adjustments instantly as you change values on the telemetry sliders.
 
 <img src="assets/Demand Matrix.png" width="100%">
+
 ---
 
 ## 4. Machine Learning Sensitivity & Attribution Matrix (Attribution Weights)
@@ -86,8 +90,6 @@ A diagnostic plot displaying the exact global feature attribution scores across 
 - **Visual Mapping**: Features high-contrast pink column vectors aligned perfectly within dark canvas grids to make tracking sensitivities simple for operators at a glance.
 
 <img src="assets/Feature Importance.png" width="100%">
----
-
 # Directory Structure
 
 ```text
