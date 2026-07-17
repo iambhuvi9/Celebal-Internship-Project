@@ -179,7 +179,7 @@ Smart Meter Logs + Weather History + Holiday Schedules + Demographic Categories
           (Interactive Telemetry Processing & Automated Control Actions)
 ---
 
----
+---text
 
 # Data Engineering Specifications
 
@@ -198,12 +198,10 @@ Smart Meter Logs + Weather History + Holiday Schedules + Demographic Categories
 11. **`energy_lag_7`**: Float tracker capturing consumption volume from exactly $7$ days prior.
 12. **`energy_rolling_mean_3`**: Float tracking mean volume across the previous $3$-day processing window.
 
----
 ### Prediction Target
 
-* **`energy_sum`**: Continuous absolute daily electricity consumption volume measured in Kilowatt-hours (`kWh`).
+***`energy_sum`**: Continuous absolute daily electricity consumption volume measured in Kilowatt-hours (`kWh`).
 
----
 
 # Installation & Deployment
 
