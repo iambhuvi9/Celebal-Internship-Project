@@ -326,14 +326,6 @@ It showcases how AI can be leveraged to improve energy efficiency, reduce operat
 
 ---
 
-➡ **Next:** **Part 2** will include:
-
-- 🏗 Project Architecture
-- 📂 Directory Structure
-- 🧠 Machine Learning Pipeline
-- ⚙ Technology Stack
-- 📊 Data Engineering Specifications
-- 🔄 Workflow Diagram
 
 
 ---
@@ -690,15 +682,7 @@ The dashboard consists of multiple enterprise-style modules.
 
 ---
 
-➡ **Next:** **Part 3** will include:
 
-- 📦 Dataset Information
-- ⚙️ Installation Guide
-- ▶️ Running the Project
-- 📸 Dashboard Usage
-- 🎯 Example Workflow
-- 📊 Results
-- 🔮 Future Improvements
 ---
 
 # 📦 Dataset Information
