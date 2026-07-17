@@ -4,16 +4,6 @@
 
 ### AI-Driven Real-Time Energy Forecasting & Autonomous Demand-Side Optimization using Machine Learning
 
-<p align="center">
-
-![Python](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python)
-![LightGBM](https://img.shields.io/badge/LightGBM-Gradient%20Boosting-green?style=for-the-badge)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?style=for-the-badge&logo=scikitlearn)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Engineering-black?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-blue?style=for-the-badge&logo=numpy)
-
-</p>
 
 **An intelligent machine learning platform for real-time electricity demand forecasting, smart grid analytics, and autonomous energy optimization using smart meter telemetry, weather intelligence, and socio-economic household profiles.**
 
