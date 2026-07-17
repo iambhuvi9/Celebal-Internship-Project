@@ -40,18 +40,21 @@ The unified analytics frame maps predictive capabilities against real-time opera
 - **Main Mainframe Column (Center-Left Grid)**: Processes the primary `🔮 AI Core Forecasted Load Profile` indicator block directly above the continuous `📈 Predictive 7-Day Demand Matrix` trend tracker.
 - **Operational Intelligence Column (Right Grid)**: Aggregates real-time diagnostic telemetry outputs under the `🧠 Autonomous Optimization Engine` log array alongside the `📊 Quantified Grid Optimization Level` health index bar.
 - **Lower Analytics Control Block (Full-Width Base Floor)**: Spans horizontally across the complete dashboard workspace layout, embedding the comprehensive `📊 Feature Attribution Matrices (Sensitivity Index)` to isolate variable coefficients instantly.
+<img src="assets/Dashboard Platform.png" width="100%">
 
 ## 2. Input Simulation Panel (Dynamic Parameter Boundary Configuration)
 The control center sidebar exposes three granular input vector sub-modules to dynamically simulate and stress-test the machine learning model's predictive limits:
 - **🏠 Focus Context**: Dropdown selection allowing real-time targeting of unique household profiles (`LCLid`), automatically extracting corresponding historical baseline configurations and categorical groupings.
 - **🌡️ Telemetry Simulation Matrix**: Real-time physical parameter sliders to configure ambient conditions, including Minimum Temperature (°C), Maximum Temperature (°C), Relative Humidity, and Wind Velocity (mph).
 - **📅 Temporal Modifiers Engine**: Houses a master activation toggle (`Enable Temporal Analytics Engine`) that opens interactive target constraints: a calendar date picker (`Select Target Date`), a diurnal shift matrix selector (`Day Shift` / `Night Shift`), and a Target Operating Hour granular scheduler.
+<img src="assets/Input Slider.png" width="100%">
 
 ## 3. Predictive 7-Day Demand Matrix (Volumetric Load Tracking)
 An interactive load tracker that receives synchronized feature inputs to project cyclic grid consumption trajectories over a forward-looking weekly horizon:
 - **Dynamic X-Axis Projection**: Adapts automatically to map localized sequential sequences starting from the targeted base tracking profile (`Day 1` through `Day 7`).
 - **Y-Axis Scalability**: Tracks absolute metrics directly in Kilowatt-hours (`kWh`) across continuous grid intervals to isolate cyclic load variances at a glance.
 - **AI Core Synchronization**: Linked dynamically to the primary forecast card, reflecting minor adjustments instantly as you change values on the telemetry sliders.
+<img src="assets/Demand Matrix.png" width="100%">
 
 ## 4.1 Autonomous Optimization Engine & Grid Health Metrics
 A highly reactive diagnostic interface panel that maps multi-variable environmental telemetry inputs directly to automated grid efficiency rules and operational action logs. The engine evaluates physics limits and calendar constraints dynamically to dispatch real-time system badges:
@@ -83,6 +86,8 @@ The system constantly runs cross-validation equations against input variables to
 - **Unified Status Monitor**: Displays an active system health value using a dark progress visualization track.
 - **Efficiency Metrics**: Evaluates the real-time conservation baseline relative to expected peak thresholds, presenting an explicit efficiency coefficient index score (e.g., `59/100`).
 
+<img src="assets/Optimization Logs.png" width="100%">
+
 ---
 
 ## 5. Machine Learning Sensitivity & Attribution Matrix (Attribution Weights)
@@ -90,7 +95,7 @@ A diagnostic plot displaying the exact global feature attribution scores across 
 - **Attribution Distribution**: Shows how environmental vectors (`Max Temp`, `Min Temp`, `Humidity`, `Wind Speed`) compare directly against structural calendar elements (`Month`, `Day of Week`, `Is Weekend`), calendar holiday states (`is_bank_holiday`), demographic constraints (`acorn_encoded`), and historical trends.
 - **Dynamic Structural Floor**: Spans horizontally across the complete interface floor, demonstrating that the `Max Temp` threshold and `Lag 1 Day` values stand as the primary mathematical contributors driving the core regression logic.
 - **Visual Mapping**: Features high-contrast pink column vectors aligned perfectly within dark canvas grids to make tracking sensitivities simple for operators at a glance.
-
+<img src="assets/Feature Importance.png" width="100%">
 ---
 
 # Directory Structure
