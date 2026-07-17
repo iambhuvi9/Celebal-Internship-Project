@@ -94,7 +94,8 @@ A diagnostic plot displaying the exact global feature attribution scores across 
 
 # Directory Structure
 
-```text
+```t
+
 smart_energy_optimization/
 │
 ├── app/
@@ -138,7 +139,8 @@ smart_energy_optimization/
 
 # Machine Learning Pipeline
 
-```text
+```
+
   Smart Meter Logs + Weather History + Holiday Schedules + Demographic Categories
                                          │
                                          ▼
