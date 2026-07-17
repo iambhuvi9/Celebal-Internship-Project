@@ -123,25 +123,30 @@ smart_energy_optimization/
 
 ---
 
-# Technology Stack
+# ⚡ Autonomous Energy Optimization Platform
 
-| Technology | Purpose |
-| --- | --- |
-| **Python** | Central Execution Language Framework |
-| **Pandas** | Hierarchical Dataset Cleaning, Relational Joins & Merging |
-| **NumPy** | Multi-dimensional Array Configurations & Vectorized Functions |
-| **LightGBM** | High-performance Gradient Boosting Regression Engine |
-| **Scikit-Learn** | Validation Splitting Matrices & Model Performance Scoring Metrics |
-| **Streamlit** | Core Asynchronous UI Layout & Reactive Widget Component Architecture |
-| **Joblib** | Fast Pipeline Serialization & Model Object Storage |
+AI‑Driven Predictive Grid Analytics & Automated Demand‑Side Optimization Engine
 
 ---
 
-# Machine Learning Pipeline
+## 🚀 Technology Stack
 
-```
+| Technology      | Purpose                                                                 |
+|-----------------|-------------------------------------------------------------------------|
+| **Python**      | Central execution language framework                                    |
+| **Pandas**      | Hierarchical dataset cleaning, relational joins & merging               |
+| **NumPy**       | Multi‑dimensional array configurations & vectorized functions           |
+| **LightGBM**    | High‑performance gradient boosting regression engine                    |
+| **Scikit‑Learn**| Validation splitting matrices & model performance scoring metrics       |
+| **Streamlit**   | Core asynchronous UI layout & reactive widget component architecture    |
+| **Joblib**      | Fast pipeline serialization & model object storage                      |
 
-  Smart Meter Logs + Weather History + Holiday Schedules + Demographic Categories
+---
+
+## 🧠 Machine Learning Pipeline
+
+```text
+Smart Meter Logs + Weather History + Holiday Schedules + Demographic Categories
                                          │
                                          ▼
                              Data Cleaning & Merge
@@ -153,7 +158,7 @@ smart_energy_optimization/
                                          │
                                          ▼
                        LightGBM Optimization Engine Training
-                (Early Stopping Evaluation Loop • 12-Feature Space)
+                (Early Stopping Evaluation Loop • 12‑Feature Space)
                                          │
                                          ▼
                             Serialized Model Artifact
@@ -163,7 +168,6 @@ smart_energy_optimization/
                          Streamlit Reactive GUI Execution
           (Interactive Telemetry Processing & Automated Control Actions)
 
-```
 
 ---
 
