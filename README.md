@@ -47,7 +47,7 @@ The control center sidebar exposes three granular input vector sub-modules to dy
 - **🏠 Focus Context**: Dropdown selection allowing real-time targeting of unique household profiles (`LCLid`), automatically extracting corresponding historical baseline configurations and categorical groupings.
 - **🌡️ Telemetry Simulation Matrix**: Real-time physical parameter sliders to configure ambient conditions, including Minimum Temperature (°C), Maximum Temperature (°C), Relative Humidity, and Wind Velocity (mph).
 - **📅 Temporal Modifiers Engine**: Houses a master activation toggle (`Enable Temporal Analytics Engine`) that opens interactive target constraints: a calendar date picker (`Select Target Date`), a diurnal shift matrix selector (`Day Shift` / `Night Shift`), and a Target Operating Hour granular scheduler.
-<img src="assets/Input Slider.png" width="100%">
+<img src="assets/Input Slider.png" width="50%">
 
 ## 3. Predictive 7-Day Demand Matrix (Volumetric Load Tracking)
 An interactive load tracker that receives synchronized feature inputs to project cyclic grid consumption trajectories over a forward-looking weekly horizon:
