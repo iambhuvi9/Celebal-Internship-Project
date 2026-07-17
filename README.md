@@ -183,82 +183,36 @@ Smart Meter Logs + Weather History + Holiday Schedules + Demographic Categories
 
 # Data Engineering Specifications
 
-### Input Features Matrix (12 Explicit Vectors)
+Input Features Matrix (12 Explicit Vectors)
+temperatureMax – Daily maximum temperature (°C).
 
-1. **`temperatureMax`**: Float value tracking daily top temperature ceilings.
-2. **`temperatureMin`**: Float value tracking daily lower temperature floors.
-3. **`humidity`**: Float parameter defining mean moisture fractions.
-4. **`windSpeed`**: Float velocity setting structural air movement.
-5. **`Month`**: Integer ($1$ to $12$) checking broad season fluctuations.
-6. **`Day_of_Week`**: Integer ($0$ to $6$) matching corporate operational cycles.
-7. **`Is_Weekend`**: Binary flag ($0$ or $1$) capturing weekly domestic drops.
-8. **`is_bank_holiday`**: Binary flag ($0$ or $1$) tracking holiday off-peak consumption shifts.
-9. **`acorn_encoded`**: Integer factorized tracking group reflecting household socio-economic profiles.
-10. **`energy_lag_1`**: Float tracker capturing consumption volume from exactly $1$ day prior.
-11. **`energy_lag_7`**: Float tracker capturing consumption volume from exactly $7$ days prior.
-12. **`energy_rolling_mean_3`**: Float tracking mean volume across the previous $3$-day processing window.
+temperatureMin – Daily minimum temperature (°C).
 
+humidity – Mean relative humidity fraction.
+
+windSpeed – Wind velocity (mph).
+
+Month – Integer (1–12) representing seasonal variation.
+
+Day_of_Week – Integer (0–6) for weekday cycles.
+
+Is_Weekend – Binary flag (0/1) for weekend detection.
+
+is_bank_holiday – Binary flag (0/1) for holiday shifts.
+
+acorn_encoded – Encoded socio‑economic household profile.
+
+energy_lag_1 – Energy usage from 1 day prior (kWh).
+
+energy_lag_7 – Energy usage from 7 days prior (kWh).
+
+energy_rolling_mean_3 – 3‑day rolling average load (kWh).
 ### Prediction Target
 
 ***`energy_sum`**: Continuous absolute daily electricity consumption volume measured in Kilowatt-hours (`kWh`).
 
 
-# Installation & Deployment
 
-## 1. Clone Repository & Navigate
-
-```bash
-git clone https://github.com/yourusername/smart-energy-optimization.git
-cd smart-energy-optimization
-
-```
-
-## 2. Initialize Virtual Environment
-
-### Windows
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-
-```
-
-### Linux / macOS
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-
-```
-
-## 3. Install Requirements
-
-```bash
-pip install -r requirements.txt
-
-```
-
-## 4. Compile the Pipeline & Train AI Core Engine
-
-Execute the main pipeline training script from the project root. This process runs the complete ingestion chain, computes multi-dimensional features, executes the LightGBM regressor optimization loop, and dumps the serialized model:
-
-```bash
-python run_pipeline.py
-
-```
-
-## 5. Boot Up the Asynchronous Control Dashboard
-
-Launch the interactive enterprise dashboard interface:
-
-```bash
-streamlit run app/gui_app.py
-
-```
-
----
-
-# Dataset References
 
 * **London Smart Meter Telemetry Dataset**: Localized residential power consumption timelines.
 * **DarkSky Historical Weather Dataset**: Contextual atmospheric telemetry parameters matching the exact geographic boundary windows.
