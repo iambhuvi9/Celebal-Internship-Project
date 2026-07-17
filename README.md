@@ -96,32 +96,37 @@ A diagnostic plot displaying the exact global feature attribution scores across 
 # Directory Structure
 
 ```text
-
 smart_energy_optimization/
 │
 ├── app/
-│   └── gui_app.py                      # Premium Streamlit GUI Dashboard application
+│   └── gui_app.py
+│
+├── assets/
+│   ├── Dashboard Platform.png
+│   ├── Telemetry Input.png
+│   ├── Demand Matrix.png
+│   └── Feature Importance.png
 │
 ├── data/
-│   ├── daily_dataset.csv               # Smart meter daily load records per LCLid
-│   ├── weather_hourly_darksky.csv      # Raw hourly climate log history
-│   ├── uk_bank_holidays.csv            # Official UK calendar holiday registry
-│   └── informations_households.csv     # Household demographic mapping & ACORN category groups
+│   ├── daily_dataset.csv
+│   └── weather_hourly_darksky.csv
 │
 ├── models/
-│   └── energy_forecast_model.pkl      # Serialized 12-feature LightGBM core artifact
+│   └── energy_forecast_model.pkl
+│
+├── notebooks/
+│   └── Main.ipynb
 │
 ├── src/
-│   ├── __init__.py                     # Package level standard initialization
-│   ├── data_pipeline.py                # Ingestion, formatting, and relational merging framework
-│   ├── feature_eng.py                  # Temporal extractions and time-series rolling lag operators
-│   └── model_pipeline.py               # LightGBM Regressor compiler, hyperparameter setup, evaluation
+│   ├── __init__.py
+│   ├── data_pipeline.py
+│   ├── feature_eng.py
+│   └── model_pipeline.py
 │
-├── run_pipeline.py                     # Root execution script to build, train, and save pipeline
-├── requirements.txt                    # Project execution environment dependency list
-└── README.md                           # Documentation framework
-
----
+├── requirements.txt
+│
+└── README.md
+```
 
 # ⚡ Autonomous Energy Optimization Platform
 
@@ -129,7 +134,7 @@ AI‑Driven Predictive Grid Analytics & Automated Demand‑Side Optimization Eng
 
 ---
 
-## 🚀 Technology Stack
+# 🚀 Technology Stack
 
 | Technology      | Purpose                                                                 |
 |-----------------|-------------------------------------------------------------------------|
@@ -143,7 +148,7 @@ AI‑Driven Predictive Grid Analytics & Automated Demand‑Side Optimization Eng
 
 ---
 
-## 🧠 Machine Learning Pipeline
+# 🧠 Machine Learning Pipeline
 
 ```text
 Smart Meter Logs + Weather History + Holiday Schedules + Demographic Categories
@@ -167,7 +172,7 @@ Smart Meter Logs + Weather History + Holiday Schedules + Demographic Categories
                                          ▼
                          Streamlit Reactive GUI Execution
           (Interactive Telemetry Processing & Automated Control Actions)
-
+---
 
 ---
 
@@ -188,6 +193,7 @@ Smart Meter Logs + Weather History + Holiday Schedules + Demographic Categories
 11. **`energy_lag_7`**: Float tracker capturing consumption volume from exactly $7$ days prior.
 12. **`energy_rolling_mean_3`**: Float tracking mean volume across the previous $3$-day processing window.
 
+---
 ### Prediction Target
 
 * **`energy_sum`**: Continuous absolute daily electricity consumption volume measured in Kilowatt-hours (`kWh`).
