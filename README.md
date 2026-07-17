@@ -1,6 +1,7 @@
 # Autonomous Energy Optimization Platform for Smart Grids
 
 ---
+
 An intelligent machine learning platform for **real-time energy consumption forecasting** and automated demand-side mitigation using smart meter telemetry, socio-economic context profiles, and historical weather data arrays.
 
 The project leverages an optimized **LightGBM Regressor engine**, dynamic temporal feature tracking, rolling historical lag resolution matrices, and a high-tech premium **Streamlit enterprise dashboard framework** to forecast localized electricity load patterns, track complex grid sensitivities, and dispatch immediate rule-based grid directives.
@@ -94,7 +95,7 @@ A diagnostic plot displaying the exact global feature attribution scores across 
 
 # Directory Structure
 
-```t
+```text
 
 smart_energy_optimization/
 │
@@ -119,7 +120,6 @@ smart_energy_optimization/
 ├── run_pipeline.py                     # Root execution script to build, train, and save pipeline
 ├── requirements.txt                    # Project execution environment dependency list
 └── README.md                           # Documentation framework
-
 
 ---
 
@@ -195,7 +195,7 @@ smart_energy_optimization/
 ## 1. Clone Repository & Navigate
 
 ```bash
-git clone [https://github.com/yourusername/smart-energy-optimization.git](https://github.com/yourusername/smart-energy-optimization.git)
+git clone https://github.com/yourusername/smart-energy-optimization.git
 cd smart-energy-optimization
 
 ```
@@ -249,7 +249,3 @@ streamlit run app/gui_app.py
 
 * **London Smart Meter Telemetry Dataset**: Localized residential power consumption timelines.
 * **DarkSky Historical Weather Dataset**: Contextual atmospheric telemetry parameters matching the exact geographic boundary windows.
-
-```
-
-```
